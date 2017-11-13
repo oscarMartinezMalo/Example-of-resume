@@ -6,6 +6,20 @@ body, html {
     height: 100%;
 }
 
+h1 {
+	margin-top: 120px;
+	text-align: center;
+}
+
+hr {
+ 	border: 0;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	height: 1px;
+	width: 80px;
+}
+
+
+
 .hero-image {
 	background-image: url("../images/heroImage.jpg");
 	height: 70%;
@@ -47,17 +61,6 @@ body, html {
 }
 
 section.aboutMe {	
-	h1 {
-		margin-top: 120px;
-		text-align: center;
-	}
-
-	hr {
-	 	border: 0;
-    	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-    	height: 1px;
-		width: 80px;
-	}
 
 	.round-hoobies {
 		height: 8em;
@@ -75,7 +78,21 @@ section.aboutMe {
 			position: absolute;
 			top: 50%;
 			left: 50%;
-			transform: translate(-50%, -50%);		}
+			transform: translate(-50%, -50%);		
+		}
+	}
+}
+
+section.resume {
+	.fa {
+		padding: 7px;
+		border-radius: 50%;
+		background-color: $secondary;
+		color: $primary;
+		position: relative;
+		left: 100%;
+		transform: translate(0,-35px);
+
 	}
 }
 
