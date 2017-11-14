@@ -7,7 +7,6 @@ body, html {
 }
 
 h1 {
-	margin-top: 120px;
 	text-align: center;
 }
 
@@ -62,6 +61,8 @@ hr {
 
 section.aboutMe {	
 
+	margin-top: 120px;
+
 	.round-hoobies {
 		height: 8em;
 		width: 8em;
@@ -84,15 +85,20 @@ section.aboutMe {
 }
 
 section.resume {
+
+	margin-top: 30px;
+
 	.fa {
 		padding: 7px;
 		border-radius: 50%;
 		background-color: $secondary;
 		color: $primary;
-		position: relative;
+		position: absolute;
 		left: 100%;
-		transform: translate(0,-35px);
+		top: -30px;
+		margin-left: -15px;
 	}
+
 	.vl	{
 		border-left: 2px solid $secondary;
 		height: 100%;
@@ -101,9 +107,19 @@ section.resume {
 		margin-left: -1px;
 		top: 0;
 	}
+	.row>.col-12 {
+		.vl:first-child{
+			left: 50%;
+			z-index: -5;
+		}
+		h4 {
+			text-align: center;
+			z-index: 10;
+		}
+	}
 
 	h4>span {
-		padding: 0 0.2em 0 0.2em;
+		padding: 0 0.2em 0.2em 0.2em;
 		border-radius: 5px;
 		background-color: $secondary;
 	}
@@ -116,10 +132,13 @@ section.resume {
 		position: relative;
 		left: 100%;
 		transform: translate(9px);
+		margin-bottom: 40px;
 
-		&.dot-first {top: -21px;}
-		&.dot-second {top: 15px;}
+		 &.dot-first {top: 10px;}
+		 &.dot-second {top: 60px;}
 	}
+
+
 }
 
 
