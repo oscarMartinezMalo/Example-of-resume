@@ -8,7 +8,7 @@
 		<a class="fa fa-github" target="_blank" aria-hidden="true"></a>
 	</div>
 	<div class="image-wrap">
-		<img src="./images/faceImage.jpg" class="mx-auto d-block" alt="">
+		<img src="./images/faceImage.jpg" class="mx-auto d-block img-thumbnail" alt="">
 	</div>
 
 </div>
