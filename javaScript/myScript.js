@@ -1,0 +1,1 @@
+$(window).scroll(function(){$(".myProgress").each(function(){$(this).offset().top<$(window).scrollTop()+800&&$(".myProgress").addClass("progress")})});

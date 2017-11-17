@@ -1,3 +1,5 @@
+@import "myprogress-bar";
+
 $white:    white !default;
 $gray:		gray	!default;
 $primary:       $white !default;
@@ -95,7 +97,6 @@ section.aboutMe {
 
 div.resume {
 	background-color: lighten($secondary,45%);
-	margin-top: 30px;
 
 	.fa {
 		padding: 7px;
@@ -184,10 +185,13 @@ div.resume {
 
 		span.fa {
 			font-size: 2em;
+			color: $primary;
 		}
 	}
 }
 
+.working-process {
+	background-color: $secondary;
+	color: $primary;
+}
 
-
-// progressbar

@@ -1,8 +1,8 @@
-<section class="milestone container-fluid">
+<section class="working-process container-fluid">
 	<div class="container">
-		<h1 text-uppercase>Milestone</h1>
+		<h1 text-uppercase>Working Process</h1>
 		<hr class="hr hr-white">
-		<div class="row py-5">
+		<div class="row">
 			<div class="col-6 col-md-2 round-hoobies offset-3 offset-md-1 mb-5">
 				<div class="circle-wrap m-auto">
 					<span class="fa fa-coffee  center-icons display-4"></span>
