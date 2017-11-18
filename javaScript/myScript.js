@@ -1,1 +1,1 @@
-$(window).scroll(function(){$(".myProgress").each(function(){$(this).offset().top<$(window).scrollTop()+800&&$(".myProgress").addClass("progress")})});
+$(window).scroll(function(){$(".progress").each(function(){$(this).offset().top<$(window).scrollTop()+800&&$(".progress").attr("data-percentage","80")})});

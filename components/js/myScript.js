@@ -9,12 +9,11 @@
 // }
 
 $(window).scroll(function() {
-  $(".myProgress").each(function(){
+  $(".progress").each(function(){
     var pos = $(this).offset().top;
-
     var winTop = $(window).scrollTop();
     if (pos < winTop + 800) {
-      $(".myProgress").addClass("progress");
+      $(".progress").attr("data-percentage","80");      
     }
   });
 });
