@@ -193,5 +193,12 @@ div.resume {
 .working-process {
 	background-color: $secondary;
 	color: $primary;
+
+	.square-border {
+		border: 1px solid $primary;
+		border-radius: 5px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
 }
 
