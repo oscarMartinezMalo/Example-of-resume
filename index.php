@@ -21,6 +21,7 @@
 			<?php include "sections/myservices.php" ;?>	
 			<?php include "sections/skills.php" ;?>	
 			<?php include "sections/workingProcess.php" ;?>	
+			<?php include "sections/myvideos.php" ;?>	
 		</div>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
