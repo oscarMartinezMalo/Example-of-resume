@@ -1,6 +1,6 @@
 <section class="milestone container-fluid">
 	<div class="container">
-		<h1 text-uppercase>Milestone</h1>
+		<h1 class="h1-white">Milestone</h1>
 		<hr class="hr hr-white">
 		<div class="row py-5">
 			<div class="col-6 col-md-2 round-hoobies offset-3 offset-md-1 mb-5">

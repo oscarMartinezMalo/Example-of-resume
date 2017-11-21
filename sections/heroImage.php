@@ -1,6 +1,6 @@
 <div class="hero-image">
 	<div class="hero-text">
-		<h1>Walter Izquierdo</h1>
+		<h1 class="h1-white">Walter Izquierdo</h1>
 		<p class="pb-3">Php. Data Mining</p>
 		<a class="fa fa-twitter" target="_blank" aria-hidden="true"></a>
 		<a class="fa fa-youtube" target="_blank" aria-hidden="true"></a>

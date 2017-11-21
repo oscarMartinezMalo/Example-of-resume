@@ -11,6 +11,10 @@ body, html {
 h1 {
 	text-align: center;
 	padding-top: 1em;
+	color: $secondary;
+	&.h1-white {
+			color: $primary;
+	}
 }
 
 hr {
@@ -175,6 +179,7 @@ div.resume {
 
 .myservices {
 	background-color: lighten($secondary, 40%);
+}
 
 	.square {
 		height: 70px;
@@ -188,7 +193,6 @@ div.resume {
 			color: $primary;
 		}
 	}
-}
 
 .working-process {
 	background-color: $secondary;
@@ -200,5 +204,38 @@ div.resume {
 		padding-top: 4px;
 		padding-bottom: 4px;
 	}
+}
+
+.myvideos {
+	background-color :$primary;
+	.card {
+		background-color: $secondary;
+		.card-footer, .card-header {
+			background-color: lighten($secondary, 25%);
+		}
+	}
+}
+
+.mywork {
+	 background-color: $secondary;
+	 color: $primary;
+
+	 .nav-link.active {
+	 	background-color: lighten($secondary, 15%);
+	 }
+
+	 .nav-link {
+	 	color: black;
+
+	 	&:hover {
+		 	background-color: lighten($secondary, 15%);
+		 	transition: .5s background-color;
+	 	}
+	 }
+
+	 .row {
+	 	background-color: lighten($secondary, 15%);
+	 	border-radius: 5px;
+	 }
 }
 
