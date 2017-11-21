@@ -4,7 +4,7 @@
 		<hr>
 		<div class="row">
 			<div class="col-md-3 col-sm-6">
-				<div class="progress" >
+				<div id="js" class="progress" >
 					<span class="progress-left">
 						<span class="progress-bar"></span>
 					</span>
@@ -20,7 +20,7 @@
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6">
-				<div class="progress" >
+				<div id="html" class="progress" >
 					<span class="progress-left">
 						<span class="progress-bar"></span>
 					</span>
@@ -29,14 +29,14 @@
 					</span>
 					<div class="progress-value">
 						<div>
-							80%<br>
+							20%<br>
 							<span>JavaScript</span>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6">
-				<div class="progress" >
+				<div id="sass" class="progress" >
 					<span class="progress-left">
 						<span class="progress-bar"></span>
 					</span>
@@ -45,14 +45,14 @@
 					</span>
 					<div class="progress-value">
 						<div>
-							80%<br>
+							50%<br>
 							<span>JavaScript</span>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6">
-				<div class="progress" >
+				<div id="less" class="progress" >
 					<span class="progress-left">
 						<span class="progress-bar"></span>
 					</span>
@@ -61,7 +61,7 @@
 					</span>
 					<div class="progress-value">
 						<div>
-							80%<br>
+							70%<br>
 							<span>JavaScript</span>
 						</div>
 					</div>
@@ -70,7 +70,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-3 col-sm-6">
-				<div class="progress" >
+				<div id="csharp" class="progress" >
 					<span class="progress-left">
 						<span class="progress-bar"></span>
 					</span>
@@ -79,14 +79,14 @@
 					</span>
 					<div class="progress-value">
 						<div>
-							80%<br>
+							100%<br>
 							<span>JavaScript</span>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6">
-				<div class="progress" >
+				<div id="php" class="progress" >
 					<span class="progress-left">
 						<span class="progress-bar"></span>
 					</span>
@@ -95,14 +95,14 @@
 					</span>
 					<div class="progress-value">
 						<div>
-							80%<br>
+							90%<br>
 							<span>JavaScript</span>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6">
-				<div class="progress" >
+				<div id="nodejs" class="progress" >
 					<span class="progress-left">
 						<span class="progress-bar"></span>
 					</span>
@@ -111,14 +111,14 @@
 					</span>
 					<div class="progress-value">
 						<div>
-							80%<br>
+							40%<br>
 							<span>JavaScript</span>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6">
-				<div class="progress" >
+				<div id="angular" class="progress" >
 					<span class="progress-left">
 						<span class="progress-bar"></span>
 					</span>
@@ -127,7 +127,7 @@
 					</span>
 					<div class="progress-value">
 						<div>
-							80%<br>
+							30%<br>
 							<span>JavaScript</span>
 						</div>
 					</div>
