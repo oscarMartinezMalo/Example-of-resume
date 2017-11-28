@@ -24,6 +24,9 @@
 			<?php include "sections/myvideos.php" ;?>	
 			<?php include "sections/mywork.php" ;?>	
 			<?php include "sections/contactme.php" ;?>	
+			<iframe  width="100%"  height="400"  frameborder="0" style="border:0"  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0kkBMUjx6m2boflcIXBxBQ0Ee_7lcrg8 &q=Westchester,Miami+FL" allowfullscreen>
+      		</iframe>
+      		<?php include "sections//footer.php"; ?>
 		</div>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

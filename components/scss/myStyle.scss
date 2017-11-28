@@ -239,3 +239,16 @@ div.resume {
 	 }
 }
 
+footer {
+	.fa {
+		font-size: 2em;		
+	}
+
+	a {
+		text-decoration: none;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+

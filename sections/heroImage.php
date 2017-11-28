@@ -1,4 +1,4 @@
-<div class="hero-image">
+<section class="hero-image">
 	<div class="hero-text">
 		<h1 class="h1-white">Walter Izquierdo</h1>
 		<p class="pb-3">Php. Data Mining</p>
@@ -10,4 +10,4 @@
 	<div class="image-wrap">
 		<img src="./images/faceImage.jpg" class="mx-auto d-block img-thumbnail" alt="">
 	</div>
-</div>
+</section>
