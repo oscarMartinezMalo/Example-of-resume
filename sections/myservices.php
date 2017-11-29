@@ -1,8 +1,8 @@
-<div class="myservices container-fluid">
-	<h1>My Services</h1>
-	<hr>
+<section class="myservices container-fluid">
 	<div class="container">
-		<div class="row py-4">
+		<h1>My Services</h1>
+		<hr>
+		<div class="row">
 			<div class="col-6 col-md-5">
 				<div class="row">
 					<!--<div class="row d-flex"> -->
@@ -54,7 +54,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row py-4">
+		<div class="row">
 			<div class="col-6 col-md-5">
 				<div class="row">
 					<!--<div class="row d-flex"> -->
@@ -81,4 +81,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>

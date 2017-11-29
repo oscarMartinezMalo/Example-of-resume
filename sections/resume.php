@@ -1,8 +1,8 @@
-<div class="resume container-fluid">
-	<section class="container">
+<section class="resume container-fluid">
+	<div class="container">
 		<h1>Resume</h1>
 		<hr>
-		<div class="row ">
+		<div class="row  pt-4">
 			<div class="col-12">
 				<div class="vl d-none d-sm-block"></div>
 				<h4 class="pb-5"><span class="d-md-inline d-block">Experience</span></h4>
@@ -71,8 +71,7 @@
 				<p>Company Name 2013-Current</p>
 				<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, voluptates, odit similique tempore voluptas, ratione omnis ab, cumque distinctio provident error cum. Quia, laudantium, id! Commodi rem, libero dolorum ipsum!</p>
 			</div>
-			<span class="fa fa-bookmark d-none d-sm-block"></span
+			<span class="fa fa-bookmark d-none d-sm-block"></span>
 		</div>
-
-	</section>
-</div>
+	</div>
+</section>

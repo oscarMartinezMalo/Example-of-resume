@@ -1,5 +1,5 @@
-<div class="skills container-fluid">
-	<div class="container py-5">
+<section class="skills container-fluid">
+	<div class="container">
 		<h1>Skills</h1>
 		<hr>
 		<div class="row">
@@ -135,4 +135,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>

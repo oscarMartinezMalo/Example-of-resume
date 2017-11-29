@@ -2,7 +2,7 @@
 	<div class="container">
 		<h1>My Videos</h1>
 		<hr class="hr">
-		<div class="row py-4">
+		<div class="row">
 			<div class="col-md-4 mb-3">
 				<div class="card text-center">
 					<div class="card-header">

@@ -2,7 +2,7 @@
 	<div class="container">
 		<h1 class="h1-white">Working Process</h1>
 		<hr class="hr hr-white">
-		<div class="row py-4">
+		<div class="row">
 			<div class=" col-md-2 col-6">
 				<div  class="text-center square-border mx-3">
 					<span class="fa fa-coffee display-4"></span>

@@ -75,6 +75,16 @@ hr {
 
 section.aboutMe {	
 	margin-top: 60px;
+
+	@media (min-width: 992px) { 	
+		.btn-block {
+			width: auto;
+		}		
+	}
+
+	.circle-wrap .fa {
+		font-size: 2em;
+	}
 }
 
 .center-icons {
@@ -99,7 +109,7 @@ section.aboutMe {
 	@extende center-icons;
 }
 
-div.resume {
+section.resume {
 	background-color: lighten($secondary,45%);
 
 	.fa {
@@ -159,8 +169,6 @@ div.resume {
 		 &.dot-first {top: 10px;}
 		 &.dot-second {top: 60px;}
 	}
-
-
 }
 
 .milestone {
