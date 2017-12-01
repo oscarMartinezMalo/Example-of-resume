@@ -1,4 +1,4 @@
-<section class="skills container-fluid">
+<section class="skills container-fluid pb-4">
 	<div class="container">
 		<h1>Skills</h1>
 		<hr>

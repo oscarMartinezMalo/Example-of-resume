@@ -1,4 +1,4 @@
-<section class="myvideos container-fluid">
+<section class="myvideos container-fluid pb-4">
 	<div class="container">
 		<h1>My Videos</h1>
 		<hr class="hr">

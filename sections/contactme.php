@@ -1,12 +1,12 @@
-<section class="contactme container-fluid">
+<section class="contactme container-fluid pb-5">
 	<div class="container">
 		<h1>Contact Me</h1>
 		<hr class="hr">
-		<div class="row py-4">
+		<div class="row pb-4">
 			<div class="col-md-4">
 				<div class="row mb-1">
 					<div class="col-5">
-						<div class="square rounded float-left float-md-right"><span class="fa fa-envelope-open center-icons"></span></div>
+						<div class="square rounded float-right"><span class="fa fa-envelope-open center-icons"></span></div>
 					</div>
 					<div class="col-7"><p class="mb-0"><strong>E-mail</strong></p>
 						<p class="mb-0">walter@gmail.com </p> 
@@ -17,7 +17,7 @@
 			<div class="col-md-4">
 				<div class="row mb-1">
 					<div class="col-5">
-						<div class="square rounded float-left float-md-right"><span class="fa fa-phone center-icons"></span></div>
+						<div class="square rounded float-right"><span class="fa fa-phone center-icons"></span></div>
 					</div>
 					<div class="col-7"><p class="mb-0"><strong>Phone</strong></p>
 						<p class="mb-0">Mr 305 </p> 
@@ -28,7 +28,7 @@
 			<div class="col-md-4">
 				<div class="row mb-1">
 					<div class="col-5">
-						<div class="square rounded float-left float-md-right"><span class="fa fa-map-marker center-icons"></span></div>
+						<div class="square rounded float-right"><span class="fa fa-map-marker center-icons"></span></div>
 					</div>
 					<div class="col-7"><p class="mb-0"><strong>Address</strong></p>
 						<p class="mb-0">Mr 305 </p> 
@@ -48,9 +48,9 @@
 				</div>
 			</div>
 	      	<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-			<div class="row my-3">
-				<div class="col-sm-12 form-group text-center">
-				  <button  class="btn btn-outline-secondary btn-block mb-3" type="submit" id="submit">Send</button>
+			<div class="row mt-3">
+				<div class="col-sm-12 form-group text-center m-0">
+				  <button  class="btn btn-outline-primary btn-block" type="submit" id="submit">Send</button>
 				</div>
 			</div> 
 	    </form>

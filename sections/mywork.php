@@ -1,4 +1,4 @@
-<section class="mywork container-fluid">
+<section class="mywork container-fluid pb-4">
 	<div class="container">
 		<h1 class="h1-white">My Works</h1>
 		<hr class="hr hr-white">
@@ -17,7 +17,7 @@
 		</ul>
 
 		<!-- Tab panes -->
-		<div class="tab-content my-3 pb-5">
+		<div class="tab-content my-3 pb-0">
 		  <div class="tab-pane active" id="home" role="tabpanel">
 			<div class="row py-3">
 				<div class="col-4 text-left m-auto">					

@@ -1,4 +1,4 @@
-<section class="aboutMe container-fluid">
+<section class="aboutMe container-fluid mb-4">
 	<div class="container">
 		<h1>About Me</h1>
 		<hr>
@@ -29,7 +29,7 @@
 					</div>
 				</div>
 				<h5 class="font-italic text-left mb-3 ">Walter Izquierdo</h5>
-				<button class="btn btn-outline-secondary btn-block mb-3">
+				<button class="btn btn-outline-primary btn-block mb-3">
 					<span class="fa fa-cloud-download"></span>
 					Download Resume
 				</button>

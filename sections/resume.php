@@ -1,8 +1,8 @@
-<section class="resume container-fluid">
+<section class="resume container-fluid pb-3">
 	<div class="container">
 		<h1>Resume</h1>
 		<hr>
-		<div class="row  pt-4">
+		<div class="row">
 			<div class="col-12">
 				<div class="vl d-none d-sm-block"></div>
 				<h4 class="pb-5"><span class="d-md-inline d-block">Experience</span></h4>

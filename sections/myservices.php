@@ -1,4 +1,4 @@
-<section class="myservices container-fluid">
+<section class="myservices container-fluid pb-5 pb-md-4">
 	<div class="container">
 		<h1>My Services</h1>
 		<hr>

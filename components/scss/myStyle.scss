@@ -1,16 +1,16 @@
 @import "myprogress-bar";
 
 $white:    white !default;
-$gray:		gray	!default;
+$linkedinBlue:		#2c69ab	!default;
 $primary:       $white !default;
-$secondary:		$gray	!default;
+$secondary:		$linkedinBlue!default;
 body, html {
     height: 100%;
 }
 
 h1 {
 	text-align: center;
-	padding-top: 1em;
+	padding-top: .5em;
 	color: $secondary;
 	&.h1-white {
 			color: $primary;
@@ -21,11 +21,28 @@ hr {
  	border: 0;
 	height: 1px;
 	width: 80px;
-	background-image: linear-gradient(to right, $primary, $secondary, $primary);
+	background-image: linear-gradient(to right, transparent, $secondary, transparent);
 
 	&.hr-white{
 		background-image: linear-gradient(to right, $secondary, $primary, $secondary);
 	}
+}
+
+.btn-outline-primary{
+	color: $secondary;
+	background-color: transparent;
+	background-image: none;
+	border-color: $secondary;
+	&:hover {
+		color: $primary;
+		background-color: $secondary;
+	}
+}
+
+.input-group-addon {
+    background-color:lighten($secondary, 45%);
+    color: $secondary;
+    font-weight: bold;
 }
 
 .hero-image {
@@ -42,7 +59,7 @@ hr {
 	}
 
 	.hero-text {
-		border-top: 1px solid $primary;
+		border-top: 1px solid $secondary;
 		padding: 15px;
 		text-align: center;
 		position: absolute;
@@ -52,7 +69,7 @@ hr {
 		color: $primary ;
 
 		p {
-			border-bottom: 1px solid $primary;
+			border-bottom: 1px solid $secondary;
 		}
 
 		.fa {
@@ -68,6 +85,7 @@ hr {
 		img {
 				width: 10em;
 				border-radius: 50%;
+				border-color: transparent;
 				background-color: $primary;
 			}
 	}
@@ -84,6 +102,10 @@ section.aboutMe {
 
 	.circle-wrap .fa {
 		font-size: 2em;
+	}
+
+	.container {
+		color: $secondary;
 	}
 }
 
@@ -147,6 +169,7 @@ section.resume {
 		h4 {
 			text-align: center;
 			z-index: 10;
+			color: $primary;
 		}
 	}
 
@@ -209,8 +232,8 @@ section.resume {
 	.square-border {
 		border: 1px solid $primary;
 		border-radius: 5px;
-		padding-top: 4px;
-		padding-bottom: 4px;
+		//padding-top: 4px;
+		//padding-bottom: 4px;
 	}
 }
 
@@ -218,8 +241,11 @@ section.resume {
 	background-color :$primary;
 	.card {
 		background-color: $secondary;
+		color: $primary;
+
 		.card-footer, .card-header {
 			background-color: lighten($secondary, 25%);
+			font-weight: bold;
 		}
 	}
 }
@@ -253,6 +279,7 @@ footer {
 	}
 
 	a {
+		color: $secondary;
 		text-decoration: none;
 		&:hover {
 			text-decoration: none;
