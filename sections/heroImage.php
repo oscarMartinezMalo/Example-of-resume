@@ -1,5 +1,5 @@
 <section class="hero-image">
-	<div class="hero-text">
+	<div class="hero-text" id="home">
 		<h1 class="h1-white">Walter Izquierdo</h1>
 		<p class="pb-3">Php. Data Mining</p>
 		<a class="fa fa-twitter" target="_blank" aria-hidden="true"></a>

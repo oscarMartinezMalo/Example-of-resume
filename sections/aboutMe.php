@@ -1,5 +1,5 @@
 <section class="aboutMe container-fluid mb-4">
-	<div class="container">
+	<div class="container" id="aboutMe">
 		<h1>About Me</h1>
 		<hr>
 		<p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -38,7 +38,7 @@
 				<div class="row">
 					<div class="col-12 p-0"><h6 class="text-uppercase mb-4 text-center text-md-left"> Hoobbies and Interest</h6></div>					
 					<div class="col-6 p-0 col-sm-3 round-hoobies d-flex justify-content-center justify-content-md-start">
-						<div class="circle-wrap">
+						<div class="circle-wrap slideanim">
 							<div class="center-icons">
 								<span class="fa fa-film "></span>
 								<p>Cinema</p>
@@ -54,7 +54,7 @@
 						</div>
 					</div>
 					<div class="col-6 p-0 col-sm-3 round-hoobies d-flex justify-content-center justify-content-md-start">
-						<div class="circle-wrap">
+						<div class="circle-wrap slideanim">
 							<div class="center-icons">
 								<span class="fa fa-truck "></span>
 								<p>Cars</p>
@@ -80,7 +80,7 @@
 						</div>
 					</div>
 					<div class="col-6 p-0 col-sm-3 round-hoobies d-flex justify-content-center justify-content-md-start">
-						<div class="circle-wrap">
+						<div class="circle-wrap slideanim">
 							<div class="center-icons">
 								<span class="fa fa-music"></span>
 								<p>Music</p>
@@ -96,7 +96,7 @@
 						</div>
 					</div>
 					<div class="col-6 p-0 col-sm-3 round-hoobies d-flex justify-content-center justify-content-md-start">
-						<div class="circle-wrap">
+						<div class="circle-wrap slideanim">
 							<div class="center-icons">
 								<span class="fa fa-apple"></span>
 								<p>Mac OS</p>

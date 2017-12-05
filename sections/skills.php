@@ -1,5 +1,5 @@
 <section class="skills container-fluid pb-4">
-	<div class="container">
+	<div class="container" id="skills">
 		<h1>Skills</h1>
 		<hr>
 		<div class="row">
