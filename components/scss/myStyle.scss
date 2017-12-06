@@ -1,11 +1,39 @@
 @import "myprogress-bar";
 
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+
 $white:    white !default;
 $linkedinBlue:		#2c69ab	!default;
 $primary:       $white !default;
 $secondary:		$linkedinBlue!default;
+
 body, html {
     height: 100%;
+    font-family: 'Lora', serif;
+}
+
+body {
+  position: relative;
+}
+
+.container-fluid {
+	padding-top: 30px;
+
 }
 
 h1 {
@@ -45,32 +73,34 @@ hr {
     font-weight: bold;
 }
 
-/* .navbar {
+.navbar {
 	background-color: $secondary;
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: $primary;
+.dropdown-item {
+	color: $secondary;
+	.active, &:active {
+		background-color: $secondary;
+	}
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: darken($primary,30%);
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    font-weight: bold;
 }
 
-.navbar-light .navbar-brand {
-	color: $primary;
+.navbar {
+	background-color: $secondary;
 }
 
-.navbar-light .navbar-toggler {
-    border-color: $primary;
+.dropdown-item {
+	color: $secondary;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: $primary;
-} */
+.dropdown-item.active, .dropdown-item:active {
+	background-color: $secondary;
+}
 
 .hero-image {
-
 	background-image: url("../images/heroImage.jpg");
 	height: 70%;
 	background-position: center;
@@ -303,6 +333,44 @@ section.resume {
 	 	background-color: lighten($secondary, 15%);
 	 	border-radius: 5px;
 	 }
+}
+
+#contactMe  {
+    p {
+        color: darken($secondary, 5%);
+    }
+
+    .modal {
+        p {
+            color: $primary;
+        }
+    }
+    
+    .modal-danger {
+        @include modal-custom($danger);
+    }
+
+    .modal-success {
+        @include modal-custom($success);
+    }
+}
+
+@mixin modal-custom($colorModal) {
+    .bg-1 {
+        background-color: $colorModal; 
+    }
+
+    h4.modal-title  {
+        color: $colorModal;
+    }
+
+    .btn {
+       /*  .btn-custom($colorModal); */
+    }
+
+    .close {
+        color: $colorModal;
+    }
 }
 
 footer {

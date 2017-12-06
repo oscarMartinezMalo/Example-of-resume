@@ -1,5 +1,5 @@
-<section class="myservices container-fluid pb-5 pb-md-4">
-	<div class="container" id="myServices">
+<section class="myservices container-fluid pb-5 pb-md-4"  id="myServices">
+	<div class="container">
 		<h1>My Services</h1>
 		<hr>
 		<div class="row">

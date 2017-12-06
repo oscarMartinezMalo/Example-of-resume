@@ -1,5 +1,5 @@
-<section class="aboutMe container-fluid mb-4">
-	<div class="container" id="aboutMe">
+<section class="aboutMe container-fluid mb-4" id="aboutMe">
+	<div class="container">
 		<h1>About Me</h1>
 		<hr>
 		<p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

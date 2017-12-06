@@ -1,5 +1,5 @@
-<section class="myvideos container-fluid pb-4">
-	<div class="container" id="myvideos">
+<section class="myvideos container-fluid pb-4" id="myvideos">
+	<div class="container">
 		<h1>My Videos</h1>
 		<hr class="hr">
 		<div class="row">

@@ -1,5 +1,5 @@
-<section class="contactme container-fluid pb-5">
-	<div class="container" id="contactMe">
+<section class="contactme container-fluid pb-5" id="contactMe">
+	<div class="container">
 		<h1>Contact Me</h1>
 		<hr class="hr">
 		<div class="row pb-4">

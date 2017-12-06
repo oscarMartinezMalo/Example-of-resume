@@ -4,12 +4,14 @@
 	<title></title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/myStyle.css">
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+ <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="110">
+<!--<body id="myPage"> -->
 	<header>
 		<?php include "sections/navbar.php"; ?>  
 	</header>
@@ -35,6 +37,5 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 <script src="javaScript/myScript.js"></script>
 <!--<script type="js/bootstrap.js"></script>-->
-
 </html>
 

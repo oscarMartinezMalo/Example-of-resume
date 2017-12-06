@@ -1,5 +1,5 @@
-<section class="skills container-fluid pb-4">
-	<div class="container" id="skills">
+<section class="skills container-fluid pb-4" id="skills">
+	<div class="container">
 		<h1>Skills</h1>
 		<hr>
 		<div class="row">
