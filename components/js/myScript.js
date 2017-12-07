@@ -4,7 +4,6 @@
 //     if (document.body.scrollTop > 4250 || document.documentElement.scrollTop > 4250) {
 //         $("#progressbar").removeClass("invisible");
 //         $("#progressbar").addClass("progress");
-
 //     }
 // }
 
@@ -26,7 +25,6 @@ $(window).scroll(function() {
 });
 
 $(document).ready(function(){
-
   //Avoid submit button refresh the page and send the data to php
   $("#myForm").submit(function(e){
     e.preventDefault();
@@ -41,7 +39,7 @@ $(document).ready(function(){
     // send a request to the contactMeSend.php to send the email
     $.ajax({
       type: 'POST',
-      url: 'components/php/contactMeSend.php',
+      url: 'sections/contactMeSend.php',
       data: varData,
       dataType: 'JSON',
       success: function(data){
@@ -85,7 +83,6 @@ $(document).ready(function(){
       } // End if
   });
 });
-
 
 /*"use strict";
 var topoffset = 0;

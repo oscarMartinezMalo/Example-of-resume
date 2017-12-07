@@ -11,33 +11,35 @@
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad missdre magna aliqua. Ut enim ad missdre magna aliqua. Ut enim ad missdre magna aliqua. Ut enim ad missdre magna aliqua. Ut enim ad missdre magna aliqua. Ut enim ad missd</small>
 		</p>
 		<div class="row">
-			<div class="col-lg-5 pr-0 text-center">
+			<div class="col-lg-5 text-left">
 				<div class="row no-gutters">
-					<div class="col-3 col-md-1 col-lg-4 text-left text-md-left text-lg-left">
-						<p class="font-weight-bold">Phone</p>
-						<p class="font-weight-bold">Birthdate</p>
-						<p class="font-weight-bold">Website</p>
-						<p class="font-weight-bold">Address</p>
-						<p class="font-weight-bold">Email</p>
+					<div class="col-2 col-md-1 col-lg-4 text-left text-sm-left text-lg-left">
+						<p class="font-weight-bold">Phone:</p>
+						<p class="font-weight-bold">Birthdate:</p>
+						<p class="font-weight-bold">Website:</p>
+						<p class="font-weight-bold">Address:</p>
+						<p class="font-weight-bold">Email:</p>
 					</div>
-					<div class="col-9 col-md-11 col-lg-8 text-left text-md-left pl-md-5">
-						<p class="font-italic">: 786-718-7946</p>
-						<p class="font-italic">: Janaury,1988</p>
-						<p class="font-italic">: www.walter.com</p>
-						<p class="font-italic">: Miami,Fl</p>
-						<p class="font-italic">: walter.izquierdo@gmail.com</p>
+					<div class="col col-md-11 col-lg-8 text-right text-sm-left pl-md-5">
+						<p class="font-italic">786-718-7946</p>
+						<p class="font-italic">Janaury,1988</p>
+						<p class="font-italic">www.walter.com</p>
+						<p class="font-italic">Miami,Fl</p>
+						<p class="font-italic">walter.izquierdo@gmail.com</p>
 					</div>
 				</div>
 				<h5 class="font-italic text-left mb-3 ">Walter Izquierdo</h5>
-				<button class="btn btn-outline-primary btn-block mb-3">
+				<a class="btn btn-outline-primary btn-block mb-3" href="documents/walterResume.docx">
 					<span class="fa fa-cloud-download"></span>
 					Download Resume
-				</button>
+				</a>
 			</div>
 			<div class="col-lg-7">
 				<div class="row">
-					<div class="col-12 p-0"><h6 class="text-uppercase mb-4 text-center text-md-left"> Hoobbies and Interest</h6></div>					
-					<div class="col-6 p-0 col-sm-3 round-hoobies d-flex justify-content-center justify-content-md-start">
+					<div class="col-12" >
+						<h6 class="text-uppercase mb-4 text-center text-md-left">Hoobbies and Interest</h6>
+					</div>					
+					<div class="col-6 col-sm-3 round-hoobies d-flex justify-content-center justify-content-lg-start">
 						<div class="circle-wrap slideanim">
 							<div class="center-icons">
 								<span class="fa fa-film "></span>
@@ -45,7 +47,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-6 p-0 col-sm-3 round-hoobies d-flex justify-content-center justify-content-md-start">
+					<div class="col-6 col-sm-3 round-hoobies d-flex justify-content-center justify-content-lg-start">
 						<div class="circle-wrap">
 							<div class="center-icons">
 								<span class="fa fa-coffee "></span>
@@ -53,7 +55,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-6 p-0 col-sm-3 round-hoobies d-flex justify-content-center justify-content-md-start">
+					<div class="col-6 col-sm-3 round-hoobies d-flex justify-content-center justify-content-lg-start">
 						<div class="circle-wrap slideanim">
 							<div class="center-icons">
 								<span class="fa fa-truck "></span>
@@ -61,7 +63,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-6 p-0 col-sm-3 round-hoobies d-flex justify-content-center justify-content-md-start">
+					<div class="col-6 col-sm-3 round-hoobies d-flex justify-content-center justify-content-lg-start">
 						<div class="circle-wrap">
 							<div class="center-icons">
 								<span class="fa fa-money"></span>
@@ -71,7 +73,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-6 p-0 col-sm-3 round-hoobies d-flex justify-content-center justify-content-md-start">
+					<div class="col-6 col-sm-3 round-hoobies d-flex justify-content-center justify-content-lg-start">
 						<div class="circle-wrap">
 							<div class="center-icons">
 								<span class="fa fa-gamepad"></span>
@@ -79,7 +81,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-6 p-0 col-sm-3 round-hoobies d-flex justify-content-center justify-content-md-start">
+					<div class="col-6 col-sm-3 round-hoobies d-flex justify-content-center justify-content-lg-start">
 						<div class="circle-wrap slideanim">
 							<div class="center-icons">
 								<span class="fa fa-music"></span>
@@ -87,7 +89,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-6 p-0 col-sm-3 round-hoobies d-flex justify-content-center justify-content-md-start">
+					<div class="col-6 col-sm-3 round-hoobies d-flex justify-content-center justify-content-lg-start">
 						<div class="circle-wrap">
 							<div class="center-icons">
 								<span class="fa fa-plane"></span>
@@ -95,7 +97,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-6 p-0 col-sm-3 round-hoobies d-flex justify-content-center justify-content-md-start">
+					<div class="col-6 col-sm-3 round-hoobies d-flex justify-content-center justify-content-lg-start">
 						<div class="circle-wrap slideanim">
 							<div class="center-icons">
 								<span class="fa fa-apple"></span>
