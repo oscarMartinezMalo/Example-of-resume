@@ -134,8 +134,9 @@ hr {
 
 		p {
 			border-bottom: 1px solid $secondary;
-			@media (max-width: 576px) { 
-				color: $secondary;
+			color: $secondary;
+			@media (min-width: 576px){ 
+				color: $primary;
 			}
 		}
 
