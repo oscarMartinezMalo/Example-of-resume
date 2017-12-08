@@ -7,21 +7,22 @@
 //     }
 // }
 
-$(window).scroll(function() {
-  $(".progress").each(function(){
-    var pos = $(this).offset().top;
-    var winTop = $(window).scrollTop();
-    if (pos < winTop + 800) {
-		$("#js").attr("data-percentage","80");     
-   		$("#html").attr("data-percentage","20");  
-		$("#less").attr("data-percentage","50");     
-   		$("#sass").attr("data-percentage","70");  
-		$("#csharp").attr("data-percentage","100");     
-   		$("#php").attr("data-percentage","90");  
-		$("#nodejs").attr("data-percentage","40");     
-   		$("#angular").attr("data-percentage","30"); 
-    }
-  });
+$(window).scroll(function() {  
+  var checkAttr = $(".progress").attr('data-percentage');
+  // For some browsers, `checkAttr` is undefined; for others,`attr` is false.  Check for both.
+  if (typeof checkAttr == typeof undefined || checkAttr == false) {
+      //select the list items and iterate across them
+      $(".progress").each(function(){
+        var pos = $(this).offset().top;
+        var winTop = $(window).scrollTop();
+        if (pos < winTop + 800) {
+              var allProgressValues = $("span.progress-number").text();
+              $(".progress").each(function( index ) {
+                $( this ).attr("data-percentage", allProgressValues.substr(index*2, 2));
+              }); 
+        }
+      });
+  }
 });
 
 $(document).ready(function(){

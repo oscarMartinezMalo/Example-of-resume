@@ -301,6 +301,15 @@ section.resume {
 		}
 	}
 
+.skills {
+	.progress .progress-value span {
+		text-transform: none;
+		&.progress-number {
+			font-size: 36px;
+		}
+	}
+}
+
 .working-process {
 	background-color: $secondary;
 	color: $primary;
