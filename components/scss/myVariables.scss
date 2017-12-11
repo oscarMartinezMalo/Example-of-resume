@@ -1,0 +1,25 @@
+$green:   #28a745 !default;
+$cyan:    #17a2b8 !default;
+$yellow:  #ffc107 !default;
+$red:     #dc3545 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+
+$white:    white !default;
+$linkedinBlue:		#2c69ab	!default;
+$primary:       $white !default;
+$secondary:		$linkedinBlue !default;
+
+@mixin custom-button($btnColor){
+	color: $btnColor;
+	background-color: transparent;
+	background-image: none;
+	border-color: $btnColor;
+	&:hover {
+		color: $primary;
+		background-color: $btnColor;
+	}
+}
+

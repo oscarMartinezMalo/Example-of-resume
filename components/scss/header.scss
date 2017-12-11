@@ -1,0 +1,168 @@
+@import "myVariables";
+
+body, html {
+    height: 100%;
+    font-family: 'Lora', serif;
+}
+
+body {
+  position: relative;
+}
+
+.container-fluid {
+	padding-top: 30px;
+}
+
+h1 {
+	text-align: center;
+	padding-top: .5em;
+	color: $secondary;
+	&.h1-white {
+		color: $primary;
+	}
+}
+
+hr {
+ 	border: 0;
+	height: 1px;
+	width: 80px;
+	background-image: linear-gradient(to right, transparent, $secondary, transparent);
+
+	&.hr-white{
+		background-image: linear-gradient(to right, $secondary, $primary, $secondary);
+	}
+}
+
+.btn-outline-primary{
+	@include custom-button($secondary);
+}
+
+.input-group-addon {
+    background-color:lighten($secondary, 45%);
+    color: $secondary;
+    font-weight: bold;
+}
+
+.navbar {
+	background-color: $secondary;
+}
+
+.dropdown-item {
+	color: $secondary;
+	.active, &:active {
+		background-color: $secondary;
+	}
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    font-weight: bold;
+}
+
+.navbar {
+	background-color: $secondary;
+}
+
+.dropdown-item {
+	color: $secondary;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+	background-color: $secondary;
+}
+
+.hero-image {
+	background-image: url("../images/heroImage.jpg");
+	height: 70%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
+	h1 {
+		padding-top: 0px;
+	}
+
+	.hero-text {
+		border-top: 1px solid $secondary;
+		padding: 15px;
+		text-align: center;
+		position: absolute;
+		top: 55%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		color: $primary ;
+
+		p {
+			border-bottom: 1px solid $secondary;
+			color: $secondary;
+			@media (min-width: 576px){ 
+				color: $primary;
+			}
+		}
+
+		.fa {
+			padding: 5px;
+			color: $secondary;
+		}
+
+		@media (max-width: 576px) { 				
+			.fa {
+				display: none;
+			}		
+		}
+
+	}
+
+	.image-wrap {
+		position: relative;
+		top:100%;
+		transform: translate(0%,-50%);
+
+		img {
+				width: 10em;
+				border-radius: 50%;
+				border-color: transparent;
+				background-color: $primary;
+			}
+	}
+}
+
+section.aboutMe {	
+	margin-top: 60px;
+
+	@media (min-width: 992px) { 	
+		.btn-block {
+			display: initial;
+		}		
+	}
+
+	.circle-wrap .fa {
+		font-size: 2em;
+	}
+
+	.container {
+		color: $secondary;
+	}
+}
+
+.center-icons {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);		
+}
+
+.round-hoobies {
+	height: 8em;
+	width: 8em;
+	.circle-wrap {
+		width: 110px;
+		height: 110px;
+		border-radius: 50%;
+		background-color: $secondary;
+		color: $primary;
+	}
+
+	@extende center-icons;
+}
