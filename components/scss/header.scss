@@ -71,12 +71,32 @@ hr {
 }
 
 .hero-image {
-	background-image: url("../images/heroImage.jpg");
-	height: 70%;
+	background-image: url("../images/heroImage-576.jpeg");
+	height: 88%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+
+	// Small devices (landscape phones, 576px and up)
+	@media (min-width: 576px) { 
+		background-image: url("../images/heroImage-768.jpeg");
+	 }
+
+	// Medium devices (tablets, 768px and up)
+	@media (min-width: 768px) { 
+		background-image: url("../images/heroImage-992.jpeg");
+	}
+
+	// Large devices (desktops, 992px and up)
+	@media (min-width: 992px) { 
+		background-image: url("../images/heroImage-1140.jpeg");
+	 }
+
+	// Extra large devices (large desktops, 1200px and up)
+	@media (min-width: 1200px) { 
+		background-image: url("../images/heroImage.jpg");
+	 }
 
 	h1 {
 		padding-top: 0px;

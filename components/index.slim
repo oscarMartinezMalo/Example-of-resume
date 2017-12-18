@@ -1,14 +1,45 @@
+<?php
+/*Server Push*/
+function push_to_browser()
+{
+	header('link: ' . '<//fonts.googleapis.com/css?family=Lora>' . '; rel=preload; as=' . "style", false);
+	header('link: ' . '<//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css>' . '; rel=preload; as=' . "style", false);
+	header('link: ' . '</css/header.css>' . '; rel=preload; as=' . "style", false);
+	header('link: ' . '</images/faceImage.jpg>' . '; rel=preload; as=' . "image", false);
+	header('link: ' . '</images/heroImage-576.jpeg>' . '; rel=preload; as=' . "image", false);
+	header('link: ' . '<//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js>' . '; rel=preload; as=' . "script", false);
+	header('link: ' . '<//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js>' . '; rel=preload; as=' . "script", false);
+
+}
+push_to_browser();
+
+/*This Server Push didnt work but should be this way*/
+/*function push_to_browser($as, $uri)
+{
+	header('link: ' . $uri . '; rel=preload; as=' . $as, false);
+}
+
+$assets = $array(
+	"<//fonts.googleapis.com/css?family=Lora>" => "style",
+	'<//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css>' => 'style',
+	'/css/header.css' => 'style',
+	'</images/faceImage.jpg>' => 'image',
+	'</images/heroImage.jpg>' => 'image',
+	'<//code.jquery.com/jquery-3.2.1.min.js>' => 'script',
+	'<//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js>' => 'script',
+	'<//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js>' => 'script'
+);
+
+array_walk($assets, 'push_to_browser');*/
+?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title></title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
-	<link rel="stylesheet" type="text/css" href="css/myStyle.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
 </head>
  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="110">
 <!--<body id="myPage"> -->
@@ -32,7 +63,9 @@
 		</div>
 
 		<noscript id="deferred-styles">
-  			<link rel="stylesheet" type="text/css" href="small.css"/>
+			<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link rel="stylesheet" type="text/css" href="css/myStyle.css">
 	    </noscript>
 	    <script>
 	      	var loadDeferredStyles = function() {
@@ -55,4 +88,3 @@
 <script src="javaScript/myScript.js" defer></script>
 <!--<script type="js/bootstrap.js"></script>-->
 </html>
-

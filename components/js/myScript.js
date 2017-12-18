@@ -83,6 +83,32 @@ $(document).ready(function(){
         });
       } // End if
   });
+
+
+  function checkWidth() {
+        if ($(window).width() > 576) {
+            //if the window is greater than 5760px wide then turn on Slide Smooth..
+            // Slide Smooth in Elements
+            $(window).scroll(function() {
+              $(".slideanim").each(function(){
+                var pos = $(this).offset().top;
+
+                var winTop = $(window).scrollTop();
+                if (pos < winTop + 800) {
+                  $(this).addClass("slide");
+                }
+              });
+            });
+        }else{
+          //remove the slideanim in small devices
+          $(".slideanim").removeClass("slideanim");
+        }
+    }
+    // Execute on load
+    checkWidth();
+    // Bind event listener
+    $(window).resize(checkWidth);
+
 });
 
 /*"use strict";
@@ -104,14 +130,3 @@ $(".navbar").on("activate.bs.scrollspy", function(){
 
 */
 
-// Slide Smooth in Elements
-$(window).scroll(function() {
-  $(".slideanim").each(function(){
-    var pos = $(this).offset().top;
-
-    var winTop = $(window).scrollTop();
-    if (pos < winTop + 800) {
-      $(this).addClass("slide");
-    }
-  });
-});
